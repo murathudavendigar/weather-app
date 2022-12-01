@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Weather App | Captain Price</title>
+  </head>
+  <body>
+    <div class="container container-fluid">
+      <div class="form__group field col-12 col-lg-7">
+        <input
+          type="input"
+          class="form__field input-box"
+          placeholder="Name"
+          name="name"
+          id="name"
+          required />
+        <label for="name" class="form__label ms-1">Enter a city</label>
+      </div>
+      <br />
+      <div class="btn btn-primary click-me col-12 col-lg-2">OK</div>
+      <div class="row">
+        <h1 class="text-center warning text-light display-3 mt-5">
+          Designed By Captain Price
+        </h1>
+      </div>
+    </div>
+    <div class="container container-fluid result"></div>
+    <div class="text-center">
+      <div class="btn btn-primary click-me col-12 col-lg-2 d-none clear-all">
+        Clear All
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
